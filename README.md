@@ -113,7 +113,8 @@ Admins and users can use the following credentials for initial access:
 
 ---
 
-### Prerequisites
+## Prerequisites
+
 - **Java JDK (8+)** installed
 - **MySQL Server** with access credentials
 - Your preferred Java IDE (NetBeans, Eclipse, IntelliJ, etc.)
