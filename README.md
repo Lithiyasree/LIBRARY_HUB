@@ -110,14 +110,8 @@ Admins and users can use the following credentials for initial access:
    - **Fine**: `₹10` for every day overdue  
    Example: If a book is issued for 7 days but returned after 9 days, fine = (9−7) × ₹10 = ₹20.
 
-Core logic (in `returnBook()`):
-long diffDays = (returnDate.getTime() - issueDate.getTime()) / (1000L * 60 * 60 * 24);
-long daysLate = diffDays - period;
-int fine = (daysLate > 0) ? (int) daysLate * 10 : 0;
 
-
-
-
+---
 
 ### Prerequisites
 - **Java JDK (8+)** installed
